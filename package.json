@@ -1,0 +1,30 @@
+{
+  "name": "@lorefnon/parcel-transformer-svg-vue",
+  "version": "1.0.0",
+  "description": "Parcel transformer to convert imported svg files to vue components",
+  "main": "build/SvgVueTransformer.js",
+  "funding": "https://ko-fi.com/lorefnon",
+  "files": ["./build"],
+  "scripts": {
+    "build": "tsc"
+  },
+  "engines": {
+    "node": ">= 18.0.0",
+    "parcel": "^2.9.3"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [],
+  "author": "lorefnon <lorefnon@tutanota.com> (https://lorefnon.me)",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/debug": "^4.1.9",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "@parcel/plugin": "2.9.3",
+    "debug": "^4.3.4",
+    "svgo": "^3.0.2"
+  }
+}
