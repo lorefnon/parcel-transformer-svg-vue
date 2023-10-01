@@ -3,7 +3,7 @@
     <Icon />
 </template>
 
-<script scoped lang="js">
+<script setup lang="js">
 import { ref } from "vue"
 import Icon from "vue:./icon.svg"
 
