@@ -1,0 +1,7 @@
+{
+  "extends": "@parcel/config-default",
+  "transformers": {
+    "vue:*.svg": ["...", "@lorefnon/parcel-transformer-svg-vue"],
+    "vue:*.vue": ["...", "@parcel/transformer-vue"],
+  }
+}

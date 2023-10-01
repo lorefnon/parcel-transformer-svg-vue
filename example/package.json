@@ -1,0 +1,19 @@
+{
+  "name": "example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel index.html"
+  },
+  "dependencies": {
+    "vue": "^3.3.4"
+  },
+  "devDependencies": {
+    "@lorefnon/parcel-transformer-svg-vue": "file:..",
+    "@parcel/config-default": "^2.9.3",
+    "@parcel/transformer-vue": "2.9.3",
+    "parcel": "^2.9.3"
+  },
+  "author": "Lorefnon <lorefnon@tutanota.com>",
+  "license": "MIT"
+}
