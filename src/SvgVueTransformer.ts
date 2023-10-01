@@ -37,7 +37,8 @@ export default new Transformer({
         // }]
         asset.type = "vue";
         asset.bundleBehavior = "inline";
-        asset.setCode(`<template>${svg}</template>`);
+        const tmplContent = svg.replace(/<\?xml.*\?>/, '').trim()
+        asset.setCode(`<template>${tmplContent}</template>`);
         return [asset];
     },
 })
